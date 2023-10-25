@@ -41,7 +41,7 @@ export default defineConfig({
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Wiki', link: '/wiki/' },
-            { text: `v${version}`, link: '#' }
+            { text: `v${version}`, items: [{ text: 'About Me', link: '/wiki/about-me.md' }] }
         ],
 
         sidebar: [

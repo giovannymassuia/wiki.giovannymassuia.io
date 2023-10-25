@@ -9,6 +9,8 @@
         </p>
         <p style="font-size: 0.9rem;">
         Check out my github profile <a href="https://github.com/giovannymassuia">here</a>.
+        <br>
+        Feel to send me a message on <a href="https://www.linkedin.com/in/giovannymassuia/">LinkedIn</a>.
         </p>
     </div>
 
