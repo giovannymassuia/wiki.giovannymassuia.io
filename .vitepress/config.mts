@@ -21,13 +21,15 @@ export default defineConfig({
 
         sidebar: [
             {
-                text: 'Home',
+                text: '🏠 Home',
                 link: '/wiki/'
             },
 
             {
-                text: 'Data Structures & Algorithms',
-                collapsed: true,
+                text: '🤖 Data Structures & Algorithms',
+                link: '/wiki/dsa/',
+                docFooterText: 'Data Structures & Algorithms',
+                collapsed: false,
                 items: [
                     { text: 'Trie', link: '/wiki/dsa/trie/' },
                     { text: 'Binary Search Tree', link: '/wiki/dsa/binary-search-tree/' }
@@ -35,7 +37,23 @@ export default defineConfig({
             },
 
             {
-                text: 'Vitepress Examples',
+                text: '🌐 System Design',
+                collapsed: true,
+                docFooterText: 'System Design',
+                link: '/wiki/system-design/',
+                items: []
+            },
+
+            {
+                text: '🏗️ Domain Driven Design',
+                collapsed: true,
+                docFooterText: 'Domain Driven Design',
+                link: '/wiki/ddd/',
+                items: []
+            },
+
+            {
+                text: '📒 Vitepress Examples',
                 collapsed: true,
                 docFooterText: 'Vitepress Examples',
                 items: [
@@ -45,7 +63,7 @@ export default defineConfig({
             },
 
             {
-                text: 'About Me',
+                text: '👨‍💻 About Me',
                 link: '/wiki/about-me.md'
             }
         ],

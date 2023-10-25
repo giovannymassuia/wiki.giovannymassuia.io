@@ -12,17 +12,19 @@ hero:
           link: 'https://github.com/giovannymassuia'
         - theme: alt
           text: Wiki
-          link: /wiki/index.html
+          link: /wiki/
 
 features:
     - title: Data Structures and Algorithms
       details: Set of data structures and algorithms that I have implemented in different languages.
       icon: 🤖
-      link: /wiki/dsa/index.html
-    - title: Domain Driven Design
-      details: Concepts and examples of Domain Driven Design.
-      icon: 🏗
+      link: /wiki/dsa/
     - title: System Design
       details: Varous system design concepts and examples.
       icon: 🌐
+      link: /wiki/system-design/
+    - title: Domain Driven Design
+      details: Concepts and examples of Domain Driven Design.
+      icon: 🏗
+      link: /wiki/ddd/
 ---
