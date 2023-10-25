@@ -8,7 +8,6 @@ export default defineConfig({
     lastUpdated: true,
     lang: 'en-US',
 
-    // src/.vitepress
     head: [
         ['script', { async: 'true', src: 'https://www.googletagmanager.com/gtag/js?id=G-49BMGQ90H9' }],
         [
