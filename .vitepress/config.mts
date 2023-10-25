@@ -7,6 +7,7 @@ export default defineConfig({
     description: 'A Software Development Wiki',
     lastUpdated: true,
     lang: 'en-US',
+    cleanUrls: true,
 
     head: [
         [
@@ -51,6 +52,27 @@ export default defineConfig({
                 items: [
                     { text: 'Trie', link: '/wiki/dsa/trie/' },
                     { text: 'Binary Search Tree', link: '/wiki/dsa/binary-search-tree/' }
+                ]
+            },
+
+            {
+                text: '🎨 Design Patterns',
+                collapsed: true,
+                docFooterText: 'Design Patterns',
+                link: '/wiki/design-patterns/',
+                items: [
+                    {
+                        text: 'Creational',
+                        link: '/wiki/design-patterns/creational/'
+                    },
+                    {
+                        text: 'Structural',
+                        link: '/wiki/design-patterns/structural/'
+                    },
+                    {
+                        text: 'Behavioral',
+                        link: '/wiki/design-patterns/behavioral/'
+                    }
                 ]
             },
 

@@ -21,6 +21,10 @@ features:
       details: Set of data structures and algorithms that I have implemented in different languages.
       icon: 🤖
       link: /wiki/dsa/
+    - title: Design Patterns
+      details: Set of design patterns that I have implemented in different languages.
+      icon: 🎨
+      link: /wiki/design-patterns/
     - title: System Design
       details: Varous system design concepts and examples.
       icon: 🌐
