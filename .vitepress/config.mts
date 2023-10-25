@@ -9,7 +9,7 @@ export default defineConfig({
     lang: 'en-US',
 
     head: [
-        ['script', { async: 'true', src: 'https://www.googletagmanager.com/gtag/js?id=G-49BMGQ90H9' }],
+        ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-49BMGQ90H9' }],
         [
             'script',
             {},
