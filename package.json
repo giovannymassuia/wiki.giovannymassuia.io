@@ -1,21 +1,21 @@
 {
-  "name": "wiki.giovannymassuia.io",
-  "version": "1.0.0",
-  "description": "Giovanny Wiki",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
-  },
-  "repository": {
-    "type": "git",
-    "url": "wiki.giovannymassuia.io"
-  },
-  "author": "Giovanny Massuia",
-  "license": "ISC",
-  "devDependencies": {
-    "vitepress": "^1.0.0-rc.24"
-  }
+    "name": "wiki.giovannymassuia.io",
+    "version": "1.0.1",
+    "description": "Giovanny Wiki",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "docs:dev": "vitepress dev",
+        "docs:build": "vitepress build",
+        "docs:preview": "vitepress preview"
+    },
+    "repository": {
+        "type": "git",
+        "url": "wiki.giovannymassuia.io"
+    },
+    "author": "Giovanny Massuia",
+    "license": "ISC",
+    "devDependencies": {
+        "vitepress": "^1.0.0-rc.24"
+    }
 }
