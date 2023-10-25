@@ -6,6 +6,7 @@ title: Wiki
 
 hero:
     name: "Giovanny's Wiki"
+    image: /logo.png
     text: 'A Software Development Wiki'
     tagline: 'A growing collection of software development concepts and examples.'
     actions:

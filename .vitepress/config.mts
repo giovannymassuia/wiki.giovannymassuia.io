@@ -10,6 +10,10 @@ export default defineConfig({
     cleanUrls: true,
 
     head: [
+        // favicon
+        ['link', { rel: 'icon', href: '/logo.png' }],
+        // apple touch icon
+        ['link', { rel: 'apple-touch-icon', href: '/logo.png' }],
         [
             'script',
             {
@@ -25,6 +29,8 @@ export default defineConfig({
     ],
 
     themeConfig: {
+        logo: '/logo.png',
+
         search: {
             provider: 'local',
             options: {
