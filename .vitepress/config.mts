@@ -8,6 +8,16 @@ export default defineConfig({
     lastUpdated: true,
     lang: 'en-US',
 
+    // src/.vitepress
+    head: [
+        ['script', { async: 'true', src: 'https://www.googletagmanager.com/gtag/js?id=GTM-P959SLRQ' }],
+        [
+            'script',
+            {},
+            "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'GTM-P959SLRQ');"
+        ]
+    ],
+
     themeConfig: {
         search: {
             provider: 'local'
