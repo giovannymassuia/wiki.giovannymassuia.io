@@ -1,1 +1,1 @@
-# Binary Search Trie
+# Binary Search Tree

@@ -19,7 +19,10 @@ export default defineConfig({
 
     themeConfig: {
         search: {
-            provider: 'local'
+            provider: 'local',
+            options: {
+                detailedView: true
+            }
         },
         // https://vitepress.dev/reference/default-theme-config
         nav: [
