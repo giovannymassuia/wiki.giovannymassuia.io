@@ -10,11 +10,11 @@ export default defineConfig({
 
     // src/.vitepress
     head: [
-        ['script', { async: 'true', src: 'https://www.googletagmanager.com/gtag/js?id=GTM-P959SLRQ' }],
+        ['script', { async: 'true', src: 'https://www.googletagmanager.com/gtag/js?id=G-49BMGQ90H9' }],
         [
             'script',
             {},
-            "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'GTM-P959SLRQ');"
+            "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-49BMGQ90H9');"
         ]
     ],
 
