@@ -9,7 +9,13 @@ export default defineConfig({
     lang: 'en-US',
 
     head: [
-        ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-49BMGQ90H9' }],
+        [
+            'script',
+            {
+                async: '',
+                src: 'https://www.googletagmanager.com/gtag/js?id=G-49BMGQ90H9'
+            }
+        ],
         [
             'script',
             {},
@@ -61,7 +67,12 @@ export default defineConfig({
                 collapsed: true,
                 docFooterText: 'Domain Driven Design',
                 link: '/wiki/ddd/',
-                items: []
+                items: [
+                    {
+                        text: 'Sub-domains vs Bounded Context',
+                        link: '/wiki/ddd/subdomain-bounded-context'
+                    }
+                ]
             },
 
             {
@@ -69,8 +80,14 @@ export default defineConfig({
                 collapsed: true,
                 docFooterText: 'Vitepress Examples',
                 items: [
-                    { text: 'Markdown Examples', link: '/wiki/vite-examples/markdown-examples' },
-                    { text: 'Runtime API Examples', link: '/wiki/vite-examples/api-examples' }
+                    {
+                        text: 'Markdown Examples',
+                        link: '/wiki/vite-examples/markdown-examples'
+                    },
+                    {
+                        text: 'Runtime API Examples',
+                        link: '/wiki/vite-examples/api-examples'
+                    }
                 ]
             },
 
