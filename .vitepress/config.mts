@@ -7,7 +7,7 @@ export default defineConfig({
     description: 'A Software Development Wiki',
     lastUpdated: true,
     lang: 'en-US',
-    // cleanUrls: true,
+    cleanUrls: true,
 
     head: [
         // favicon
