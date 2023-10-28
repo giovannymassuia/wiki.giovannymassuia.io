@@ -118,9 +118,20 @@ export default defineConfig({
                 docFooterText: 'Domain Driven Design',
                 link: '/wiki/ddd/',
                 items: [
+                    // discussions with chat gpt
                     {
-                        text: 'Sub-domains vs Bounded Context',
-                        link: '/wiki/ddd/subdomain-bounded-context'
+                        text: '🤖 Discussions with Chat GPT',
+                        collapsed: true,
+                        items: [
+                            {
+                                text: 'Sub-domains vs Bounded Context',
+                                link: '/wiki/ddd/chat-gpt/subdomain-bounded-context'
+                            },
+                            {
+                                text: 'Aggregates Transaction Boundaries',
+                                link: '/wiki/ddd/chat-gpt/aggregates-transaction-boundaries'
+                            }
+                        ]
                     }
                 ]
             },
