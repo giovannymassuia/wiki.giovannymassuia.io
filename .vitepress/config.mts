@@ -50,6 +50,7 @@ export default defineConfig({
                 link: '/wiki/'
             },
 
+            // data structures & algorithms
             {
                 text: '🤖 Data Structures & Algorithms',
                 link: '/wiki/dsa/',
@@ -61,6 +62,25 @@ export default defineConfig({
                 ]
             },
 
+            // programming languages
+            {
+                text: '👨‍💻 Programming Languages',
+                collapsed: true,
+                docFooterText: 'Programming Languages',
+                link: '/wiki/programming-languages/',
+                items: [
+                    {
+                        text: '🐿️ Go',
+                        link: '/wiki/programming-languages/go/'
+                    },
+                    {
+                        text: '☕️ Java',
+                        link: '/wiki/programming-languages/java/'
+                    }
+                ]
+            },
+
+            // design patterns
             {
                 text: '🎨 Design Patterns',
                 collapsed: true,
@@ -82,6 +102,7 @@ export default defineConfig({
                 ]
             },
 
+            // system design
             {
                 text: '🌐 System Design',
                 collapsed: true,
@@ -90,6 +111,7 @@ export default defineConfig({
                 items: []
             },
 
+            // domain driven design
             {
                 text: '🏗️ Domain Driven Design',
                 collapsed: true,
@@ -120,7 +142,7 @@ export default defineConfig({
             },
 
             {
-                text: '👨‍💻 About Me',
+                text: '🙋 About Me',
                 link: '/wiki/about-me.md'
             }
         ],
