@@ -1,4 +1,4 @@
-Chat with ChatGPT about aggregates and transaction boundaries
+# Chat with ChatGPT about aggregates and transaction boundaries
 
 ---
 
@@ -54,33 +54,6 @@ Consider an e-commerce system where there's an Aggregate named `Order`. This Agg
 4. **Unit of Work**: If there are other operations to be performed in conjunction with marking the order as paid (e.g., updating inventory), the Unit of Work collects these changes and sends them to the database in one transaction.
 
 To summarize, the transactional boundary of an Aggregate is about maintaining domain invariants and consistency. In practice, it often aligns with database transactions for pragmatic reasons. Repositories and the Unit of Work pattern provide mechanisms to ensure these transactional boundaries align with physical database transactions.
-
----
-
-```markdown
-# Prompt
-
-so I could have transactional boundaries for aggregates without even having a persistence layer?
-```
-
----
-
-**`ChatGPT`**
-
-Absolutely, yes. The transactional boundary of an aggregate in DDD primarily concerns domain rules and invariants, ensuring that the aggregate always remains in a consistent state. This is a conceptual boundary, and it's not inherently tied to persistence.
-
-Let's explore this with a non-persistence example:
-
-Imagine you're designing a game, and you have an aggregate called `Player`. One of the invariants is that a player's health can't go below 0 and can't exceed the maximum health limit.
-
-**Scenario**: A player takes damage.
-
-1. **Transactional Boundary**: When the player takes damage, the aggregate checks and ensures the health doesn't go below 0. If the player has 10 health points and takes 15 damage, the health is set to 0 (not -5).
-2. **Without Persistence**: Even if you're not saving this data to a database (maybe it's just an in-memory game session), the aggregate ensures this rule. The `Player` aggregate maintains its invariant without any persistence layer involved.
-
-This conceptual boundary exists regardless of whether you persist the aggregate or not. The idea is to ensure the aggregate always satisfies its business rules.
-
-In real-world systems, however, many applications do have a need to persist data, and thus, the conceptual transaction boundary of an aggregate often aligns with the physical database transaction for practical reasons. But it's essential to understand that these are two separate concerns: one is domain logic (aggregate boundary) and the other is infrastructure (persistence transaction).
 
 ---
 

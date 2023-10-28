@@ -1,4 +1,4 @@
-Chat with ChatGPT about Subdomains and Bounded Contexts
+# Chat with ChatGPT about Subdomains and Bounded Contexts
 
 ---
 
@@ -7,9 +7,9 @@ Chat with ChatGPT about Subdomains and Bounded Contexts
 
 are you able to provide real examples from DDD for the following situations:
 
-- One subdomain with one bounded context
-- One subdomain with multiple bounded contexts in it
-- One bounded context with multiple subdomain in it
+-   One subdomain with one bounded context
+-   One subdomain with multiple bounded contexts in it
+-   One bounded context with multiple subdomain in it
 ```
 
 ---
@@ -20,35 +20,35 @@ Certainly! Domain-Driven Design (DDD) is a methodology that focuses on the core 
 
 1. **One subdomain with one bounded context:**
 
-   **Subdomain:** Customer Management
+    **Subdomain:** Customer Management
 
-   **Bounded Context:** Customer Relationship Management (CRM)
+    **Bounded Context:** Customer Relationship Management (CRM)
 
-   **Description:** In a company, the subdomain of "Customer Management" deals with all aspects related to customers, such as their information, preferences, and interactions with the company. The bounded context of CRM is a specific system or application that manages these customer relationships. In this bounded context, terms like "Customer", "Lead", and "Interaction" have specific meanings and behaviors.
+    **Description:** In a company, the subdomain of "Customer Management" deals with all aspects related to customers, such as their information, preferences, and interactions with the company. The bounded context of CRM is a specific system or application that manages these customer relationships. In this bounded context, terms like "Customer", "Lead", and "Interaction" have specific meanings and behaviors.
 
 2. **One subdomain with multiple bounded contexts in it:**
 
-   **Subdomain:** Order Processing
+    **Subdomain:** Order Processing
 
-   **Bounded Contexts:**
+    **Bounded Contexts:**
 
-   - Online Order System
-   - In-store Order System
-   - Wholesale Order System
+    - Online Order System
+    - In-store Order System
+    - Wholesale Order System
 
-   **Description:** The subdomain of "Order Processing" deals with all aspects of processing orders, from receiving them to fulfilling them. However, the way orders are processed can vary based on where they come from. Online orders might be processed differently from in-store orders or wholesale orders. Each of these sources has its own bounded context, with its own models, rules, and behaviors. For instance, "Discount" in the online order system might be based on promo codes, while in the wholesale order system, it might be based on volume.
+    **Description:** The subdomain of "Order Processing" deals with all aspects of processing orders, from receiving them to fulfilling them. However, the way orders are processed can vary based on where they come from. Online orders might be processed differently from in-store orders or wholesale orders. Each of these sources has its own bounded context, with its own models, rules, and behaviors. For instance, "Discount" in the online order system might be based on promo codes, while in the wholesale order system, it might be based on volume.
 
 3. **One bounded context with multiple subdomains in it:**
 
-   **Bounded Context:** E-commerce Platform
+    **Bounded Context:** E-commerce Platform
 
-   **Subdomains:**
+    **Subdomains:**
 
-   - Product Catalog
-   - Shopping Cart
-   - Payment Processing
+    - Product Catalog
+    - Shopping Cart
+    - Payment Processing
 
-   **Description:** An e-commerce platform is a system that facilitates online shopping. Within this bounded context, there are multiple subdomains that handle different aspects of the shopping experience. The "Product Catalog" subdomain deals with listing products, their details, and prices. The "Shopping Cart" subdomain handles the user's selected items and the process of checking out. The "Payment Processing" subdomain deals with charging the customer and handling transactions. Even though these subdomains have distinct responsibilities, they are all part of the same overarching e-commerce system and need to work seamlessly together.
+    **Description:** An e-commerce platform is a system that facilitates online shopping. Within this bounded context, there are multiple subdomains that handle different aspects of the shopping experience. The "Product Catalog" subdomain deals with listing products, their details, and prices. The "Shopping Cart" subdomain handles the user's selected items and the process of checking out. The "Payment Processing" subdomain deals with charging the customer and handling transactions. Even though these subdomains have distinct responsibilities, they are all part of the same overarching e-commerce system and need to work seamlessly together.
 
 It's worth noting that while the above examples illustrate the concepts, in real-world scenarios, the decision of how to define subdomains and bounded contexts often depends on the specific business needs, organizational structure, and existing systems.
 
