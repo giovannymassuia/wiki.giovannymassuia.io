@@ -19,7 +19,7 @@ hero:
 
 features:
     - title: Data Structures and Algorithms
-      details: Set of data structures and algorithms that I have implemented in different languages.
+      details: Set of data structures and algorithms to solve common problems.
       icon: 🤖
       link: /wiki/dsa/
     - title: Programming Languages
@@ -27,7 +27,7 @@ features:
       icon: 👨‍💻
       link: /wiki/programming-languages/
     - title: Design Patterns
-      details: Set of design patterns that I have implemented in different languages.
+      details: Set of design patterns and examples.
       icon: 🎨
       link: /wiki/design-patterns/
     - title: System Design

@@ -1,6 +1,6 @@
 {
     "name": "wiki.giovannymassuia.io",
-    "version": "1.0.19",
+    "version": "1.0.20",
     "description": "Giovanny Wiki",
     "main": "index.js",
     "scripts": {
