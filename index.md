@@ -22,6 +22,10 @@ features:
       details: Set of data structures and algorithms that I have implemented in different languages.
       icon: 🤖
       link: /wiki/dsa/
+    - title: Programming Languages
+      details: Tips and tricks about programming languages.
+      icon: 👨‍💻
+      link: /wiki/programming-languages/
     - title: Design Patterns
       details: Set of design patterns that I have implemented in different languages.
       icon: 🎨
