@@ -30,6 +30,11 @@ export default defineConfig({
 
     themeConfig: {
         logo: '/logo.png',
+        lastUpdated: {
+            formatOptions: {
+                forceLocale: true
+            }
+        },
 
         search: {
             provider: 'local',
@@ -122,6 +127,7 @@ export default defineConfig({
                     {
                         text: '🤖 Discussions with Chat GPT',
                         collapsed: true,
+                        link: '/wiki/ddd/chat-gpt/',
                         items: [
                             {
                                 text: 'Sub-domains vs Bounded Context',
