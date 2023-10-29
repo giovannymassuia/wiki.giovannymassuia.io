@@ -60,7 +60,7 @@ export default defineConfig({
                 text: '🤖 Data Structures & Algorithms',
                 link: '/wiki/dsa/',
                 docFooterText: 'Data Structures & Algorithms',
-                collapsed: false,
+                collapsed: true,
                 items: [
                     { text: 'Trie', link: '/wiki/dsa/trie/' },
                     { text: 'Binary Search Tree', link: '/wiki/dsa/binary-search-tree/' }
