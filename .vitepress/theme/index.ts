@@ -2,7 +2,7 @@
 import type { Theme } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import { useData, useRoute } from 'vitepress';
-import giscusTalk from '.vitepress/components/giscus';
+import giscusTalk from '../components/Giscus.ts';
 
 export default {
     extends: DefaultTheme,
