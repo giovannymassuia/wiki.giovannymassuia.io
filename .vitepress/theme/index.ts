@@ -1,10 +1,8 @@
 // .vitepress/theme/index.ts
-import { h, Component } from 'vue';
 import type { Theme } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import { useData, useRoute } from 'vitepress';
 import giscusTalk from '../components/giscus';
-import giscus from '@giscus/vue';
 
 export default {
     extends: DefaultTheme,
