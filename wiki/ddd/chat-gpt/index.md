@@ -1,3 +1,7 @@
+---
+comment: true
+---
+
 # Chats with ChatGPT about DDD
 
 ::: warning

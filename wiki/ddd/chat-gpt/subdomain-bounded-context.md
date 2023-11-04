@@ -1,3 +1,7 @@
+---
+comment: true
+---
+
 # Chat with ChatGPT about Subdomains and Bounded Contexts
 
 ---

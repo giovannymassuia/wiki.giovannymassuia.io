@@ -1,3 +1,7 @@
+---
+comment: true
+---
+
 # Chat with ChatGPT about aggregates and transaction boundaries
 
 ---
