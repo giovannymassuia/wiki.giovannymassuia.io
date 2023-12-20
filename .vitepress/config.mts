@@ -138,7 +138,7 @@ export default defineConfig({
                                 link: '/wiki/ddd/chat-gpt/aggregates-transaction-boundaries'
                             },
                             {
-                                text: 'Saas products and core domains not in-house',
+                                text: 'SaaS products and core domains not in-house',
                                 link: '/wiki/ddd/chat-gpt/ddd-saas-products'
                             }
                         ]

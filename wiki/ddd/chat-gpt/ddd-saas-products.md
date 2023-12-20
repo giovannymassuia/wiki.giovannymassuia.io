@@ -2,11 +2,9 @@
 comment: true
 ---
 
-# SassS Products and DDD Core Subdomains
+# SaaS Products and DDD Core Subdomains
 
 > Chat with ChatGPT about DDD in SaaS products and also a discution about Core Subdomains not implemented using in-house solutions
-
----
 
 ## TL;DR:
 
