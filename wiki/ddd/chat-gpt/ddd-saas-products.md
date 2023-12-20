@@ -29,11 +29,20 @@ We've discussed the application of Domain-Driven Design (DDD) in various context
 ```markdown
 # Prompt
 
-let me ask you something. Usually, when talking or reading about Domain Driven Design it uses examples that seem to apply better to big and complex environments. But one thing I noticed was that we always talk about companies with various departments and so one, for example, an e-commerce shop, where you have orders, logistics, supply chain etc.
+let me ask you something. Usually, when talking or reading about
+Domain Driven Design it uses examples that seem to apply better
+to big and complex environments.
+But one thing I noticed was that we always talk about companies
+with various departments and so one, for example, an e-commerce
+shop, where you have orders, logistics, supply chain etc.
 
-I think I've heard little or nothing at all of DDD being applied in SaaS products or software houses that sell their solution to various clients.
+I think I've heard little or nothing at all of DDD being applied
+in SaaS products or software houses that sell their solution to
+various clients.
 
-Can you help me understand if DDD can be applied to these other scenarios, such as a more focused SaaS product for example? Can you elaborate on it and maybe use a couple of fictitious examples to help the explanations?
+Can you help me understand if DDD can be applied to these other scenarios,
+such as a more focused SaaS product for example? Can you elaborate on it
+and maybe use a couple of fictitious examples to help the explanations?
 ```
 
 ---
@@ -81,7 +90,10 @@ In summary, DDD's principles are not confined to large, multi-department compani
 ```markdown
 # Prompt
 
-so, for a saas product, would the system domains and bounded context align with the client's domains and BCs? or not necessarily, since the saas product could be for the client's company just one small part of their bigger eco-system of domains and BCs?
+so, for a saas product, would the system domains and bounded context
+align with the client's domains and BCs? or not necessarily, since
+the saas product could be for the client's company just one small
+part of their bigger eco-system of domains and BCs?
 ```
 
 ---
@@ -117,7 +129,9 @@ In summary, whether a SaaS product's domains and bounded contexts align with tho
 ```markdown
 # Prompt
 
-but in general terms, the saas product would have its own subdomains core, supporting, generic implemented in their own BCs and ubiquitous languages, right? Can you provide one more example of this scenario?
+but in general terms, the saas product would have its own subdomains
+core, supporting, generic implemented in their own BCs and ubiquitous
+languages, right? Can you provide one more example of this scenario?
 ```
 
 ---
@@ -164,7 +178,13 @@ In this example, the SaaS product has distinct subdomains and bounded contexts w
 ```markdown
 # Prompt
 
-the difference between the core subdomains of a SaaS and e-commerce that sells furniture is, for the SaaS, what makes money is the software itself, so it needs its "core" domain is the set of features that differentiates it from other SaaS competitors. Now for the e-commerce, the core domain, since it makes money selling furniture, their core domain might be to have a high quality wood or crafting, and not necessarily a piece of software.
+the difference between the core subdomains of a SaaS and e-commerce
+that sells furniture is, for the SaaS, what makes money is the software
+itself, so it needs its "core" domain is the set of features that
+differentiates it from other SaaS competitors. Now for the e-commerce,
+the core domain, since it makes money selling furniture, their core
+domain might be to have a high quality wood or crafting, and not
+necessarily a piece of software.
 ```
 
 ---
@@ -200,7 +220,8 @@ This differentiation highlights how the core domain is intrinsically linked to w
 ```markdown
 # Prompt
 
-can you layout what could be examples of core, supporting, and generic subdomains for them? Use a more real life example.
+can you layout what could be examples of core, supporting,
+and generic subdomains for them? Use a more real life example.
 ```
 
 ---
@@ -258,9 +279,15 @@ Understanding these distinctions helps businesses allocate resources efficiently
 ```markdown
 # Prompt
 
-for the Furniture e-commerce business, could its core subdomain needs be fulfilled by a generic solution? or because it's a core for the business it needs to be developed in-house?
+for the Furniture e-commerce business, could its core subdomain needs
+be fulfilled by a generic solution? or because it's a core for the
+business it needs to be developed in-house?
 
-Asking this, because you see in literatures out there that usually core subdomains are "recommended" to be implemented and maintained in-house, but if the focus of the company isn't software, or making money out of the software, it seems to me that a core-subdomain could be "implemented" using an OTS and more generic bought solution.
+Asking this, because you see in literatures out there that usually core
+subdomains are "recommended" to be implemented and maintained in-house,
+but if the focus of the company isn't software, or making money out of
+the software, it seems to me that a core-subdomain could be "implemented"
+using an OTS and more generic bought solution.
 ```
 
 ---
@@ -298,7 +325,9 @@ While DDD literature often emphasizes in-house development for core subdomains, 
 ```markdown
 # Prompt
 
-so we can conclude that a Core Subdomain for such a company could be very well solutioned by using an OTS, if there is one that can provide competitive advantage to the business core domain
+so we can conclude that a Core Subdomain for such a company could be
+very well solutioned by using an OTS, if there is one that can provide
+competitive advantage to the business core domain
 ```
 
 ---
@@ -336,7 +365,10 @@ In summary, while Domain-Driven Design often emphasizes in-house development for
 ```markdown
 # Prompt
 
-Given all we've discussed so far in this discussion, could you provide a TD;DR; about it, and a conclusion and takeaways? Please consider all since the beginning where we talked about DDD for SassS companies until the last topic about core-subdomains not being implemented in house.
+Given all we've discussed so far in this discussion, could you provide
+a TD;DR; about it, and a conclusion and takeaways? Please consider all
+since the beginning where we talked about DDD for SassS companies until
+the last topic about core-subdomains not being implemented in house.
 ```
 
 ---

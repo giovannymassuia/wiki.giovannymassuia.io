@@ -11,11 +11,11 @@ hero:
     tagline: 'A growing collection of software development concepts and examples.'
     actions:
         - theme: brand
-          text: My Github
-          link: 'https://github.com/giovannymassuia'
-        - theme: alt
           text: Wiki
           link: /wiki/
+        - theme: alt
+          text: My Github
+          link: 'https://github.com/giovannymassuia'
 
 features:
     - title: Data Structures and Algorithms
