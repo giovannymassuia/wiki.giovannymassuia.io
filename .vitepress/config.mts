@@ -21,11 +21,7 @@ export default defineConfig({
                 src: 'https://www.googletagmanager.com/gtag/js?id=G-49BMGQ90H9'
             }
         ],
-        [
-            'script',
-            {},
-            "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-49BMGQ90H9');"
-        ]
+        ['script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-49BMGQ90H9');"]
     ],
 
     themeConfig: {
@@ -53,6 +49,42 @@ export default defineConfig({
             {
                 text: '🏠 Home',
                 link: '/wiki/'
+            },
+
+            // blog
+            {
+                text: '📝 Blog',
+                // link: '/blog/',
+                docFooterText: 'Blog',
+                collapsed: true,
+                items: [
+                    {
+                        // 2024
+                        text: '2024',
+                        link: '/wiki/blog/2024/',
+                        items: [
+                            {
+                                text: '📱 Expo Social Login',
+                                link: '/wiki/blog/2024/expo-social-login/',
+                                collapsed: true,
+                                items: [
+                                    {
+                                        text: 'Google Sign In 🤖',
+                                        link: '/wiki/blog/2024/expo-social-login/expo-google-sign-in'
+                                    },
+                                    {
+                                        text: 'Apple Sign In 🍎',
+                                        link: '/wiki/blog/2024/expo-social-login/expo-apple-sign-in'
+                                    },
+                                    {
+                                        text: 'Supabase Auth Setup ⚡️',
+                                        link: '/wiki/blog/2024/expo-social-login/expo-supabase-setup'
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             },
 
             // data structures & algorithms
