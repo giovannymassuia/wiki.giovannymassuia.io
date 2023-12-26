@@ -18,6 +18,10 @@ hero:
           link: 'https://github.com/giovannymassuia'
 
 features:
+    - title: Blog Posts
+      details: Blog posts about software development.
+      icon: 📝
+      link: /wiki/blog/2024/
     - title: Data Structures and Algorithms
       details: Set of data structures and algorithms to solve common problems.
       icon: 🤖
