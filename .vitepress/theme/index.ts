@@ -3,6 +3,10 @@ import type { Theme } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import { useData, useRoute } from 'vitepress';
 import giscusTalk from '../components/Giscus.ts';
+import mediumZoom from 'medium-zoom';
+import { onMounted, watch, nextTick } from 'vue';
+
+import './index.css';
 
 export default {
     extends: DefaultTheme,
@@ -65,6 +69,17 @@ export default {
             // If it is false, it means it is not enabled.
             // You can use `comment: true` preface to enable it separately on the page.
             false
+        );
+
+        const initZoom = () => {
+            mediumZoom('.main img', { background: 'var(--vp-c-bg)' });
+        };
+        onMounted(() => {
+            initZoom();
+        });
+        watch(
+            () => route.path,
+            () => nextTick(() => initZoom())
         );
     }
 } satisfies Theme;
