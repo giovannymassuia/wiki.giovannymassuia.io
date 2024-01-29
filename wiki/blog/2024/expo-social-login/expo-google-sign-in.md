@@ -54,6 +54,7 @@ Then run the following to generate the native project directories for android:
 ### OAuth consent screen:
 
 <details>
+
 In [OAuth consent screen](https://console.cloud.google.com/apis/credentials/consent)
 
 <details>
