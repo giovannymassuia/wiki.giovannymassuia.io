@@ -2,4 +2,4 @@
 
 Here you will find a set of data structures and algorithms.
 
--   GitHub repo: https://github.com/giovannymassuia/DS-A
+-   [GitHub repo](https://github.com/giovannymassuia/DS-A) with implementations.
