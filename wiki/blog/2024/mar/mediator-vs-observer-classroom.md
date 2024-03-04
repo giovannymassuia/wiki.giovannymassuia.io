@@ -172,3 +172,10 @@ public class ClassroomObserverExample {
 
 -   [Observer Pattern](/wiki/design-patterns/behavioral/observer)
 -   [Mediator Pattern](/wiki/design-patterns/behavioral/mediator)
+
+## References
+
+-   [The Observer Pattern Explained and Implemented in Java | Behavioral Design Patterns | Geekific](https://www.youtube.com/watch?v=-oLDJ2dbadA)
+-   [The Mediator Pattern Explained and Implemented in Java | Behavioral Design Patterns | Geekific](https://www.youtube.com/watch?v=35D5cBosD4c)
+-   [Observer - Refectoring Guru](https://refactoring.guru/design-patterns/observer)
+-   [Mediator - Refectoring Guru](https://refactoring.guru/design-patterns/mediator)
