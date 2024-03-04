@@ -63,6 +63,11 @@ export default defineConfig({
                         text: '2024',
                         link: '/wiki/blog/2024/',
                         items: [
+                            // mediator vs observer
+                            {
+                                text: '📣 Mediator vs Observer',
+                                link: '/wiki/blog/2024/mar/mediator-vs-observer-classroom'
+                            },
                             {
                                 text: '📱 Expo Social Login',
                                 link: '/wiki/blog/2024/expo-social-login/',
@@ -134,7 +139,17 @@ export default defineConfig({
                     },
                     {
                         text: 'Behavioral',
-                        link: '/wiki/design-patterns/behavioral/'
+                        link: '/wiki/design-patterns/behavioral/',
+                        items: [
+                            {
+                                text: 'Observer',
+                                link: '/wiki/design-patterns/behavioral/observer'
+                            },
+                            {
+                                text: 'Mediator',
+                                link: '/wiki/design-patterns/behavioral/mediator'
+                            }
+                        ]
                     }
                 ]
             },

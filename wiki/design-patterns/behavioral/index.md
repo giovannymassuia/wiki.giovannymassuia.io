@@ -1,1 +1,4 @@
-Still in progress...
+# Behavioral Design Patterns
+
+-   [Observer](observer.md)
+-   [Mediator](mediator.md)
