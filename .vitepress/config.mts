@@ -65,11 +65,11 @@ export default defineConfig({
                         items: [
                             // mediator vs observer
                             {
-                                text: '📣 Mediator vs Observer',
+                                text: 'Mediator vs Observer',
                                 link: '/wiki/blog/2024/mar/mediator-vs-observer-classroom'
                             },
                             {
-                                text: '📱 Expo Social Login',
+                                text: 'Expo Social Login',
                                 link: '/wiki/blog/2024/expo-social-login/',
                                 collapsed: true,
                                 items: [
@@ -112,7 +112,7 @@ export default defineConfig({
                 link: '/wiki/programming-languages/',
                 items: [
                     {
-                        text: '🐿️ Go',
+                        text: 'Go',
                         link: '/wiki/programming-languages/go/'
                     }
                     // {
@@ -173,7 +173,7 @@ export default defineConfig({
                 items: [
                     // discussions with chat gpt
                     {
-                        text: '🤖 Discussions with Chat GPT',
+                        text: 'Discussions with Chat GPT',
                         collapsed: true,
                         link: '/wiki/ddd/chat-gpt/',
                         items: [
@@ -196,14 +196,13 @@ export default defineConfig({
 
             // kubernetes
             {
-                text: '🚢 Kubernetes',
+                text: '⎈ Kubernetes',
                 collapsed: true,
                 docFooterText: 'Kubernetes',
-                link: '/wiki/kubernetes/',
                 items: [
                     {
                         // networking
-                        text: '- Networking 📡',
+                        text: 'Networking',
                         items: [
                             {
                                 text: 'Calico vs Linkerd',
