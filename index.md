@@ -34,12 +34,12 @@ features:
       details: Set of design patterns and examples.
       icon: 🎨
       link: /wiki/design-patterns/
-    - title: System Design
-      details: Varous system design concepts and examples.
-      icon: 🌐
-      link: /wiki/system-design/
     - title: Domain Driven Design
       details: Concepts and examples of Domain Driven Design.
       icon: 🏗
       link: /wiki/ddd/
+    - title: Kubernetes
+      details: Concepts and examples of Kubernetes.
+      icon: ⎈
+      link: /wiki/kubernetes/
 ---

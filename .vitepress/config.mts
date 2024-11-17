@@ -198,6 +198,7 @@ export default defineConfig({
             {
                 text: '⎈ Kubernetes',
                 collapsed: true,
+                link: '/wiki/kubernetes/',
                 docFooterText: 'Kubernetes',
                 items: [
                     {
