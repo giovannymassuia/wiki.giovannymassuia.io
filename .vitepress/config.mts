@@ -93,20 +93,20 @@ export default defineConfig({
             },
 
             // data structures & algorithms
-            {
-                text: '🤖 Data Structures & Algorithms',
-                link: '/wiki/dsa/',
-                docFooterText: 'Data Structures & Algorithms',
-                collapsed: true,
-                items: [
-                    { text: 'Trie', link: '/wiki/dsa/trie/' },
-                    { text: 'Binary Search Tree', link: '/wiki/dsa/binary-search-tree/' }
-                ]
-            },
+            // {
+            //     text: '🤖 DSA',
+            //     link: '/wiki/dsa/',
+            //     docFooterText: 'Data Structures & Algorithms',
+            //     collapsed: true,
+            //     items: [
+            //         { text: 'Trie', link: '/wiki/dsa/trie/' },
+            //         { text: 'Binary Search Tree', link: '/wiki/dsa/binary-search-tree/' }
+            //     ]
+            // },
 
             // programming languages
             {
-                text: '👨‍💻 Programming Languages',
+                text: '👨‍💻 Languages',
                 collapsed: true,
                 docFooterText: 'Programming Languages',
                 link: '/wiki/programming-languages/',
@@ -114,11 +114,11 @@ export default defineConfig({
                     {
                         text: '🐿️ Go',
                         link: '/wiki/programming-languages/go/'
-                    },
-                    {
-                        text: '☕️ Java',
-                        link: '/wiki/programming-languages/java/'
                     }
+                    // {
+                    //     text: '☕️ Java',
+                    //     link: '/wiki/programming-languages/java/'
+                    // }
                 ]
             },
 
@@ -130,11 +130,12 @@ export default defineConfig({
                 link: '/wiki/design-patterns/',
                 items: [
                     {
-                        text: 'Creational',
+                        text: '<s>Creational</s> (coming soon)',
+
                         link: '/wiki/design-patterns/creational/'
                     },
                     {
-                        text: 'Structural',
+                        text: '<s>Structural</s> (coming soon)',
                         link: '/wiki/design-patterns/structural/'
                     },
                     {
@@ -155,13 +156,13 @@ export default defineConfig({
             },
 
             // system design
-            {
-                text: '🌐 System Design',
-                collapsed: true,
-                docFooterText: 'System Design',
-                link: '/wiki/system-design/',
-                items: []
-            },
+            // {
+            //     text: '🌐 System Design',
+            //     collapsed: true,
+            //     docFooterText: 'System Design',
+            //     link: '/wiki/system-design/',
+            //     items: []
+            // },
 
             // domain driven design
             {
@@ -193,21 +194,41 @@ export default defineConfig({
                 ]
             },
 
+            // kubernetes
             {
-                text: '📒 Vitepress Examples',
+                text: '🚢 Kubernetes',
                 collapsed: true,
-                docFooterText: 'Vitepress Examples',
+                docFooterText: 'Kubernetes',
+                link: '/wiki/kubernetes/',
                 items: [
                     {
-                        text: 'Markdown Examples',
-                        link: '/wiki/vite-examples/markdown-examples'
-                    },
-                    {
-                        text: 'Runtime API Examples',
-                        link: '/wiki/vite-examples/api-examples'
+                        // networking
+                        text: '- Networking 📡',
+                        items: [
+                            {
+                                text: 'Calico vs Linkerd',
+                                link: '/wiki/kubernetes/networking/calico-linkerd'
+                            }
+                        ]
                     }
                 ]
             },
+
+            // {
+            //     text: '📒 Vitepress Examples',
+            //     collapsed: true,
+            //     docFooterText: 'Vitepress Examples',
+            //     items: [
+            //         {
+            //             text: 'Markdown Examples',
+            //             link: '/wiki/vite-examples/markdown-examples'
+            //         },
+            //         {
+            //             text: 'Runtime API Examples',
+            //             link: '/wiki/vite-examples/api-examples'
+            //         }
+            //     ]
+            // },
 
             {
                 text: '🙋 About Me',
